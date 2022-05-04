@@ -133,7 +133,7 @@ p {
 
 /* hero-section */
 .hero {
-  padding: 94px 0px;
+  padding-bottom: 200px;
 }
 .first-sec {
   text-align: center;
@@ -142,6 +142,8 @@ p {
   background-color: var(--footer-color);
 }
 .main-title {
+  padding-top: 200px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
