@@ -290,20 +290,20 @@ p {
   background-color: var(--footer-color);
   padding: 60px 0px;
 }
-.logo-bot {
-  margin-bottom: 20px;
-}
+
 .main-adress {
+  margin-top: 20px;
+
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--bot-contact-rgb);
 }
-.main-adress :not(:last-child) {
+.bot-address-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.street {
-  color: var(--white-color);
+.street-link {
+  color: rgba(255, 255, 255, 1);
 }
 
 .bot-contact:hover,
