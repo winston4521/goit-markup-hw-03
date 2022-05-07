@@ -15,6 +15,13 @@ body {
   color: var(--title-text-color);
   letter-spacing: 0.03em;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 a {
   color: inherit;
@@ -55,15 +62,7 @@ p {
   background-color: var(--white-color);
   border-bottom: 1px solid var(--bgc-color-white);
 }
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
+/* Logo */
 .logo-top,
 .logo-bot,
 .web {
@@ -89,6 +88,27 @@ p {
   margin-left: 93px;
 }
 
+.navigation .nav-link {
+  display: block;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation .nav-link:hover,
+.navigation .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contact-list {
   margin-left: auto;
 }
@@ -100,29 +120,10 @@ p {
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
-.nav-item:not(:last-child) {
-  margin-right: 50px;
-}
+
 .top-contact,
 .nav-link {
   padding: 32px 0px;
-}
-.navigation .nav-link {
-  display: block;
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.navigation .nav-link:hover,
-.navigation .nav-link:focus,
-.navigation .nav-link:active {
-  color: var(--accent-color);
-}
-
-.nav-link.current {
-  color: var(--accent-color);
 }
 
 /* Contact */
@@ -132,6 +133,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
+
   display: block;
 }
 
@@ -202,11 +204,8 @@ p {
   color: var(--white-color);
 }
 
-/* advantages */
+/* Advantages */
 
-.advantages {
-  padding: 94px 0px;
-}
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
@@ -234,6 +233,13 @@ p {
 }
 /* Our-work */
 
+.section-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .our-work {
   padding-bottom: 94px;
 }
@@ -245,19 +251,9 @@ p {
   margin-right: 30px;
 }
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 /* Our Team */
 .our-members {
   background-color: #f5f4fa;
-}
-.our-members {
-  padding: 94px 0px;
 }
 
 .img-list {
@@ -327,9 +323,9 @@ p {
   border-bottom: 1px solid var(--bgc-color-white);
 }
 
-.section-prt {
-  padding-bottom: 68px;
-  padding-top: 120px;
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .prt-title {
